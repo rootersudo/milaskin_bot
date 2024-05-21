@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 import random
-bot = telebot.TeleBot('6053910162:AAELq9mxkumdJb0Om-G0o13h1UBDIECTf5U')
+bot = telebot.TeleBot('API')
 
 def read_score(user_id):
     file = open('res' + str(user_id), 'r')
