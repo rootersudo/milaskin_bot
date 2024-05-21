@@ -107,9 +107,9 @@ def get_text_message(message):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=1)
     back = types.KeyboardButton('/back')
     markup.add(back)
-    bot.send_message(message.from_user.id, 'Переведи нужную сумму на номер +79158541575(QIWI)')
-    bot.send_message(message.from_user.id, 'После подтверждения платежа, ваш баланс пополниться')
-    bot.send_message(message.from_user.id, '!!!ОБЯЗАТЕЛЬНО УКАЖИТЕ СВОЙ USER_ID ПРИ ОПЛАТЕ!!!',reply_markup=markup)
+    bot.send_message(message.from_user.id, 'в разработке')
+    bot.send_message(message.from_user.id, '')
+    bot.send_message(message.from_user.ID,'',reply_markup=markup)
 
 @bot.message_handler(commands=['Проверить_счет'])
 def mess(message):
